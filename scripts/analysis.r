@@ -5,12 +5,15 @@ source("./helper/update_data.r")
 source("./helper/translate_mod.r")
 update_data()
 
+args <- commandArgs(trailingOnly = TRUE)
+sample <- args[1]
+
 # read seqs
 ref_seq <- readDNAStringSet("../data/reference.fasta")
 # system("mafft --6merpair --thread -10 --keeplength --addfragments ../data/gisaid_hcov-19_2021_06_02_03.fasta ../data/reference.fasta > ../data/gisaid_hcov-19_2021_06_02_03.fasta_29903.fasta")
 
 # system("pangolin ../data/gisaid_hcov-19_2021_06_02_03.fasta_29903.fasta -o ../results")
-seqs <- readDNAStringSet("../data/gisaid_hcov-19_2021_06_02_03.fasta_29903.fasta")
+seqs <- readDNAStringSet(sample)
 
 date_tmp="2021-06-04"
 orf <- read_csv("../../2020-09-01_COVID_NGS_pipeline/scripts/ORF_SCoV2.csv")
@@ -63,5 +66,7 @@ df_snps_check$date <- sapply(df_snps_check$id, function(x){
 df_snps_check <- df_snps_check %>% select(id, date, everything())
 df_snps_check$date <- lubridate::ymd(df_snps_check$date)
 df_snps_check <- df_snps_check %>% arrange(desc(date))
-writexl::write_xlsx(df_snps_check, "../results/Thai_check.xlsx")
+file_out <- strsplit(sample, "/", fixed = T)[[1]]
+file_out <- file_out[length(file_out)]
+writexl::write_xlsx(df_snps_check, paste0("../results/df_check", file_out, ".xlsx"))
 
