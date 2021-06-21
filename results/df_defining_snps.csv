@@ -227,6 +227,25 @@ B.1.617.3-like,ORF8:T26I
 B.1.617.3-like,N:P67S
 B.1.617.3-like,N:R203M
 B.1.617.3-like,N:D377Y
+Lambda (C.37-like),nuc:T1246I
+Lambda (C.37-like),ORF1a:P2287S
+Lambda (C.37-like),ORF1a:F2387V
+Lambda (C.37-like),ORF1a:L3201P
+Lambda (C.37-like),ORF1a:T3255I
+Lambda (C.37-like),ORF1a:G3278S
+Lambda (C.37-like),ORF1a:SGF3675-
+Lambda (C.37-like),ORF1b:P314L
+Lambda (C.37-like),S:G75V
+Lambda (C.37-like),S:T76I
+Lambda (C.37-like),S:RSYLTPG246-
+Lambda (C.37-like),S:L452Q
+Lambda (C.37-like),S:F490S
+Lambda (C.37-like),S:D614G
+Lambda (C.37-like),S:T859N
+Lambda (C.37-like),N:P13L
+Lambda (C.37-like),N:R203K
+Lambda (C.37-like),N:G204R
+Lambda (C.37-like),N:G214C
 Gamma (P.1-like),nuc:T733C
 Gamma (P.1-like),nuc:C2749T
 Gamma (P.1-like),ORF1ab:S1188L
