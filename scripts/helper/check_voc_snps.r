@@ -36,8 +36,8 @@ write_csv(df_defining_snps, "../results/df_defining_snps.csv")
 
 # wave 3 and 4
 # info from https://doi.org/10.1016/j.lanwpc.2021.100130, table 1
-sites_cons_w3 <- list(list("B.1.1.63", paste0("nuc:", c("G28881A", "G28882A", "G28883C", "C2973T", "C20312T", "C21597T", "C28308G", "C29144T"))))
-sites_cons_w4 <- list(list("B.1.36.27", paste0("nuc:", c("G25563T", "G922A", "T1947C", "G3431T", "T5653C", "G5950A", "C6255T", "C7504T", "C18877T", "C22444T", "T24175C", "C26060T", "C26735T", "C28854T"))))
+sites_cons_w3 <- list(list("B.1.1.63", paste0("nuc:", c("C2973T", "C20312T", "C21597T", "C28308G", "C29144T"))))
+sites_cons_w4 <- list(list("B.1.36.27", paste0("nuc:", c("G922A", "T1947C", "G3431T", "T5653C", "G5950A", "C6255T", "C7504T", "C18877T", "C22444T", "T24175C", "C26060T", "C26735T", "C28854T"))))
 
 sites_cons <- c(sites_cons_w3, sites_cons_w4, sites_cons) 
 
