@@ -56,6 +56,15 @@ check_voc_snps <- function(seqs, mc.cores = 2){
 			if(grepl("+", y, fixed = T)){
 				return(rep(NA, length(seqs))) # ignore insertion
 			}
+			##############################
+			# ignore deletion
+			if(grepl("-", y, fixed = T)){
+				return(rep(NA, length(seqs))) # ignore deletion
+			}
+			if(grepl("del", y, fixed = T)){
+				return(rep(NA, length(seqs))) # ignore deletion
+			}
+			##############################
 			gene_t <- tolower(strsplit(y, ":", fixed = T)[[1]][1])
 			gene_t <- gsub("orf", "", gene_t)
 			pos_t <- strsplit(y, ":", fixed = T)[[1]][2]

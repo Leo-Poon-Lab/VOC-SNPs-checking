@@ -58,7 +58,7 @@ B.1.1.318-like,del:27887:15
 B.1.1.318-like,ORF8:E106*
 B.1.1.318-like,nuc:A28271G
 B.1.1.318-like,del:28895:3
-Alpha (B.1.1.7-like),nuc:C912T
+Alpha (B.1.1.7-like),nuc:C913T
 Alpha (B.1.1.7-like),1ab:T1001I
 Alpha (B.1.1.7-like),1ab:A1708D
 Alpha (B.1.1.7-like),nuc:C5986T
@@ -66,7 +66,7 @@ Alpha (B.1.1.7-like),1ab:I2230T
 Alpha (B.1.1.7-like),1ab:SGF3675-
 Alpha (B.1.1.7-like),nuc:C14676T
 Alpha (B.1.1.7-like),nuc:C15279T
-Alpha (B.1.1.7-like),nuc:C16175T
+Alpha (B.1.1.7-like),nuc:T16176C
 Alpha (B.1.1.7-like),s:HV69-
 Alpha (B.1.1.7-like),s:Y144-
 Alpha (B.1.1.7-like),s:N501Y
@@ -75,13 +75,13 @@ Alpha (B.1.1.7-like),s:P681H
 Alpha (B.1.1.7-like),s:T716I
 Alpha (B.1.1.7-like),s:S982A
 Alpha (B.1.1.7-like),s:D1118H
-Alpha (B.1.1.7-like),nuc:T2680C
+Alpha (B.1.1.7-like),nuc:C26801T
 Alpha (B.1.1.7-like),8:Q27*
 Alpha (B.1.1.7-like),8:R52I
 Alpha (B.1.1.7-like),8:Y73C
 Alpha (B.1.1.7-like),N:D3L
 Alpha (B.1.1.7-like),N:S235F
-B.1.1.7-like+E484K,nuc:C912T
+B.1.1.7-like+E484K,nuc:C913T
 B.1.1.7-like+E484K,1ab:T1001I
 B.1.1.7-like+E484K,1ab:A1708D
 B.1.1.7-like+E484K,nuc:C5986T
@@ -89,7 +89,7 @@ B.1.1.7-like+E484K,1ab:I2230T
 B.1.1.7-like+E484K,1ab:SGF3675-
 B.1.1.7-like+E484K,nuc:C14676T
 B.1.1.7-like+E484K,nuc:C15279T
-B.1.1.7-like+E484K,nuc:C16175T
+B.1.1.7-like+E484K,nuc:T16176C
 B.1.1.7-like+E484K,s:HV69-
 B.1.1.7-like+E484K,s:Y144-
 B.1.1.7-like+E484K,S:E484K
@@ -99,7 +99,7 @@ B.1.1.7-like+E484K,s:P681H
 B.1.1.7-like+E484K,s:T716I
 B.1.1.7-like+E484K,s:S982A
 B.1.1.7-like+E484K,s:D1118H
-B.1.1.7-like+E484K,nuc:T2680C
+B.1.1.7-like+E484K,nuc:C26801T
 B.1.1.7-like+E484K,8:Q27*
 B.1.1.7-like+E484K,8:R52I
 B.1.1.7-like+E484K,8:Y73C
@@ -186,6 +186,7 @@ B.1.617.1-like,ORF3a:S26L
 B.1.617.1-like,ORF7a:V82A
 B.1.617.1-like,N:R203M
 Delta (B.1.617.2-like),S:T19R
+Delta (B.1.617.2-like),S:G142D
 Delta (B.1.617.2-like),S:L452R
 Delta (B.1.617.2-like),S:T478K
 Delta (B.1.617.2-like),S:P681R
