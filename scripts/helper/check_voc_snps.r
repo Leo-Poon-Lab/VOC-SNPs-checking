@@ -123,7 +123,8 @@ check_voc_snps <- function(seqs, mc.cores = 2){
 		names(df_check_i) <- lineage_i
 		num_gap <- apply(df_check_i, 1, function(x){sum(x==-1, na.rm = T)})
 		num_mut <- apply(df_check_i, 1, function(x){sum(x[x!=-1], na.rm = T)})
-		name_i <- paste0(name_i, "(total n=", length(lineage_i), ")")
+		n_del_sites <- sum(apply(df_check_i, 2, function(x){all(is.na(x))}))
+		name_i <- paste0(name_i, "(total n=", length(lineage_i)-n_del_sites, ")")
 		return(tibble(id = seq_along(seqs), name = name_i, num_mut = num_mut, num_gap = num_gap))
 	})
 
