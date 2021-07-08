@@ -85,6 +85,7 @@ check_voc_snps <- function(seqs, mc.cores = 2){
 				} else {
 					rst <- seq_t == sub_t
 				}
+				rst[seq_t == "N"] <- -1
 			} else {  # AA position
 				seq_gene_1a <- subseq(seqs, 266, 13468)
 				seq_gene_1b <- subseq(seqs, 13468, 21555)
@@ -114,19 +115,23 @@ check_voc_snps <- function(seqs, mc.cores = 2){
 				} else {
 					rst <- as.character(seq_gene_aa_t) == sub_t
 				}
+				rst[seq_gene_aa_t %in% c("-", "X")] <- -1
 			}
 			return(rst)
 		}, mc.cores = mc.cores)
 		df_check_i <- as_tibble(as.data.frame(df_check_i))
 		names(df_check_i) <- lineage_i
-		num_mut <- apply(df_check_i, 1, sum, na.rm = T)
+		num_gap <- apply(df_check_i, 1, function(x){sum(x==-1, na.rm = T)})
+		num_mut <- apply(df_check_i, 1, function(x){sum(x[x!=-1], na.rm = T)})
 		name_i <- paste0(name_i, "(total n=", length(lineage_i), ")")
-		return(tibble(id = seq_along(seqs), name = name_i, value = num_mut))
+		return(tibble(id = seq_along(seqs), name = name_i, num_mut = num_mut, num_gap = num_gap))
 	})
 
 	df_out <- bind_rows(df_check)
-	df_out <- df_out %>% pivot_wider(names_from = name, values_from = value)
-	df_out$id <- names(seqs)
-	return(df_out)
+	df_out_mut <- df_out %>% select(-num_gap) %>% pivot_wider(names_from = name, values_from = num_mut)
+	df_out_gap <- df_out %>% select(-num_mut) %>% pivot_wider(names_from = name, values_from = num_gap)
+	df_out_gap$id <- names(seqs)
+	df_out_mut$id <- names(seqs)
+	return(list(df_out_mut, df_out_gap))
 }
 

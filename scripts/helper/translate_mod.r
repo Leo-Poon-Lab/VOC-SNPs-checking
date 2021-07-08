@@ -12,10 +12,10 @@ getCodons <- function(myAln) {
     })
     myCodons
 }
-translateCodons <- function(myCodons, unknownCodonTranslatesTo="N") {
+translateCodons <- function(myCodons, unknownCodonTranslatesTo="X") {
     ## make new genetic code
     gapCodon <- "-"
-    names(gapCodon) <- "---"
+    names(gapCodon) <- "NNN"
     my_GENETIC_CODE <- c(GENETIC_CODE, gapCodon)
     
     ## translate the codons
@@ -33,7 +33,7 @@ translateCodons <- function(myCodons, unknownCodonTranslatesTo="N") {
 }
 
 ## wrap the getCodons and translateCodons functions together into one:
-translateGappedAln <- function(myAln, unknownCodonTranslatesTo="-") {
+translateGappedAln <- function(myAln, unknownCodonTranslatesTo="X") {
     myCodons <- getCodons(myAln)
     myAAaln <- AAStringSet(unlist(lapply(myCodons, translateCodons, unknownCodonTranslatesTo=unknownCodonTranslatesTo)))
     return(myAAaln)

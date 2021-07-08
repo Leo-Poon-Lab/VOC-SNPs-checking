@@ -52,22 +52,27 @@ seqs <- readDNAStringSet(sample)
 # check lineage specific mutations
 source("./helper/check_voc_snps.r")
 df_snps_check <- check_voc_snps(seqs, mc.cores = 30)
-
-df_snps_check$date <- sapply(df_snps_check$id, function(x){
-	tmp <- strsplit(x, "|", fixed = T)[[1]]
-	tmp <- tmp[length(tmp)]
-	check <- strsplit(tmp, "-")[[1]]
-	if(length(check) == 1){
-		tmp <- paste0(tmp, "-01-01")
-	} else if(length(check) == 2){
-		tmp <- paste0(tmp, "-01")
-	}
-	return(tmp)
-})
-df_snps_check <- df_snps_check %>% select(id, date, everything())
-df_snps_check$date <- lubridate::ymd(df_snps_check$date)
-df_snps_check <- df_snps_check %>% arrange(desc(date))
 file_out <- strsplit(sample, "/", fixed = T)[[1]]
 file_out <- file_out[length(file_out)]
-writexl::write_xlsx(df_snps_check, paste0("../results/df_check", file_out, ".xlsx"))
+writexl::write_xlsx(df_snps_check[[1]], paste0("../results/df_check_mut_", file_out, ".xlsx"))
+writexl::write_xlsx(df_snps_check[[2]], paste0("../results/df_check_gap_", file_out, ".xlsx"))
+
+
+# df_snps_check$date <- sapply(df_snps_check$id, function(x){
+# 	tmp <- strsplit(x, "|", fixed = T)[[1]]
+# 	tmp <- tmp[length(tmp)]
+# 	check <- strsplit(tmp, "-")[[1]]
+# 	if(length(check) == 1){
+# 		tmp <- paste0(tmp, "-01-01")
+# 	} else if(length(check) == 2){
+# 		tmp <- paste0(tmp, "-01")
+# 	}
+# 	return(tmp)
+# })
+# df_snps_check <- df_snps_check %>% select(id, date, everything())
+# df_snps_check$date <- lubridate::ymd(df_snps_check$date)
+# df_snps_check <- df_snps_check %>% arrange(desc(date))
+# file_out <- strsplit(sample, "/", fixed = T)[[1]]
+# file_out <- file_out[length(file_out)]
+# writexl::write_xlsx(df_snps_check, paste0("../results/df_check", file_out, ".xlsx"))
 

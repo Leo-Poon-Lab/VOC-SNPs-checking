@@ -105,15 +105,6 @@ B.1.1.7-like+E484K,8:R52I
 B.1.1.7-like+E484K,8:Y73C
 B.1.1.7-like+E484K,N:D3L
 B.1.1.7-like+E484K,N:S235F
-B.1.324.1-like,nsp3:G76S
-B.1.324.1-like,nuc:T8704C
-B.1.324.1-like,nuc:C8986T
-B.1.324.1-like,nuc:G13617A
-B.1.324.1-like,nsp13:G206C
-B.1.324.1-like,nuc:C22388T
-B.1.324.1-like,S:E484K
-B.1.324.1-like,del:27922:34
-B.1.324.1-like,nuc:A28272T
 Beta (B.1.351-like),NSP2:T85I
 Beta (B.1.351-like),ORF1ab:K1655N
 Beta (B.1.351-like),ORF1ab:K3353R
@@ -228,6 +219,15 @@ B.1.617.3-like,ORF8:T26I
 B.1.617.3-like,N:P67S
 B.1.617.3-like,N:R203M
 B.1.617.3-like,N:D377Y
+B.1.623-like,nsp3:G76S
+B.1.623-like,nuc:T8704C
+B.1.623-like,nuc:C8986T
+B.1.623-like,nuc:G13617A
+B.1.623-like,nsp13:G206C
+B.1.623-like,nuc:C22388T
+B.1.623-like,S:E484K
+B.1.623-like,del:27922:34
+B.1.623-like,nuc:A28272T
 Lambda (C.37-like),nuc:T1246I
 Lambda (C.37-like),ORF1a:P2287S
 Lambda (C.37-like),ORF1a:F2387V
