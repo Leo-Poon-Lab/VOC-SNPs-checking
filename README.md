@@ -4,7 +4,8 @@
 
 ---
 
-The repository hosts the R scripts 
+The repository hosts the R scripts for checking the number of lineage defining SNPs appeared in the input genomes.
+
 
 Base on the constellations of mutations for the SARS-CoV-2 virus shared by [
 CoV-lineages](https://github.com/cov-lineages/constellations).
