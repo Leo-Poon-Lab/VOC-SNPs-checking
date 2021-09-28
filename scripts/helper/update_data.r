@@ -1,5 +1,5 @@
 update_data <- function(x){
-	if(file.exists("./constellations/data/SARS-CoV-2.json")){
+	if(file.exists("./constellations/constellations/data/SARS-CoV-2.json")){
 		setwd("./constellations")
 		system("git pull")
 		setwd("../")

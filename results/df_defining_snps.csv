@@ -164,6 +164,10 @@ Iota (B.1.526-like),ORF3a:Q57H
 Iota (B.1.526-like),N:P199L
 Iota (B.1.526-like),N:M234I
 Iota (B.1.526-like),ORF8:T11I
+Iota (B.1.526-like),S:S477N
+Iota (B.1.526-like),S:Q957R
+Iota (B.1.526-like),N:P13L
+Iota (B.1.526-like),N:S202R
 Iota (B.1.526-like),nuc:A28271-
 B.1.617.1-like,nuc:C3457T
 B.1.617.1-like,nsp3:T749I
@@ -219,16 +223,34 @@ B.1.617.3-like,ORF8:T26I
 B.1.617.3-like,N:P67S
 B.1.617.3-like,N:R203M
 B.1.617.3-like,N:D377Y
-B.1.623-like,nsp3:G76S
-B.1.623-like,nuc:T8704C
-B.1.623-like,nuc:C8986T
-B.1.623-like,nuc:G13617A
-B.1.623-like,nsp13:G206C
-B.1.623-like,nuc:C22388T
-B.1.623-like,S:E484K
-B.1.623-like,del:27922:34
-B.1.623-like,nuc:A28272T
-Lambda (C.37-like),nuc:T1246I
+Mu (B.1.621-like),nuc:C3037T
+Mu (B.1.621-like),ORF1a:T1055A
+Mu (B.1.621-like),ORF1a:T1538I
+Mu (B.1.621-like),nuc:C6037T
+Mu (B.1.621-like),ORF1a:T3255I
+Mu (B.1.621-like),ORF1a:Q3729R
+Mu (B.1.621-like),nuc:A13057T
+Mu (B.1.621-like),ORF1b:P314L
+Mu (B.1.621-like),ORF1b:P1342S
+Mu (B.1.621-like),nuc:C18877T
+Mu (B.1.621-like),nuc:T19035C
+Mu (B.1.621-like),nuc:C20148T
+Mu (B.1.621-like),spike:T95I
+Mu (B.1.621-like),spike:Y145N
+Mu (B.1.621-like),spike:R346K
+Mu (B.1.621-like),spike:E484K
+Mu (B.1.621-like),spike:N501Y
+Mu (B.1.621-like),spike:D614G
+Mu (B.1.621-like),spike:P681H
+Mu (B.1.621-like),spike:D950N
+Mu (B.1.621-like),ORF3a:Q57H
+Mu (B.1.621-like),nuc:A26492T
+Mu (B.1.621-like),ORF8:T11K
+Mu (B.1.621-like),ORF8:P38S
+Mu (B.1.621-like),ORF8:S67F
+Mu (B.1.621-like),nuc:A28272T
+Mu (B.1.621-like),N:T205I
+Lambda (C.37-like),ORF1a:T1246I
 Lambda (C.37-like),ORF1a:P2287S
 Lambda (C.37-like),ORF1a:F2387V
 Lambda (C.37-like),ORF1a:L3201P
