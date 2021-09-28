@@ -73,7 +73,7 @@ df_defining_snps_nt <- lapply(seq_len(nrow(df_defining_snps)), function(i){
 			print(gene_t)
 			stopifnot(nrow(ref_data_proteins_t)>0)
 			pos_nt_start <- pos_t_sim*3-2 + ref_data_proteins_t$start -1
-			pos_nt_stop <- pos_t_sim*3 + ref_data_proteins_t$stop -1
+			pos_nt_stop <- pos_t_sim*3 + ref_data_proteins_t$start -1
 		}
 	}	
 	tibble(variant=df_defining_snps$lineage[i], orf=gene_t, pos_orf=pos_t_sim, pos_nt_start=pos_nt_start, pos_nt_stop=pos_nt_stop, ref=ref_t, alt=alt_t)
