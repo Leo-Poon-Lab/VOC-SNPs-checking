@@ -136,10 +136,3 @@ check_voc_snps <- function(seqs, mc.cores = 2){
 	df_out_mut$id <- names(seqs)
 	return(list(df_out_mut, df_out_gap))
 }
-
-seqs <- readDNAStringSet(file_seq_cur)
-df_snps_check <- check_voc_snps(seqs, mc.cores = 2)
-file_out <- strsplit(sample, "/", fixed = T)[[1]]
-file_out <- file_out[length(file_out)]
-writexl::write_xlsx(df_snps_check[[1]], paste0("../results/df_check_mut_", file_out, ".xlsx"))
-writexl::write_xlsx(df_snps_check[[2]], paste0("../results/df_check_gap_", file_out, ".xlsx"))
