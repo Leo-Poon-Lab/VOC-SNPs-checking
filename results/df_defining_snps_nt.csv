@@ -39,6 +39,28 @@ AV.1-like,m,125,26895,26897,H,Y
 AV.1-like,n,157,28742,28744,I,V
 AV.1-like,n,203,28880,28882,R,K
 AV.1-like,n,204,28883,28885,G,R
+Delta (AY.4.2-like),nuc,17040,17040,17040,T,C
+Delta (AY.4.2-like),s,222,22226,22228,A,V
+Delta (AY.4.2-like),s,145,21995,21997,Y,H
+Delta (AY.4-like),del,28271,28271,28271,,
+Delta (AY.4-like),del,22029,22029,22029,,
+Delta (AY.4-like),del,28248,28248,28248,,
+Delta (AY.4-like),1a,1306,4181,4183,A,S
+Delta (AY.4-like),1a,2046,6401,6403,P,L
+Delta (AY.4-like),1a,2287,7124,7126,P,S
+Delta (AY.4-like),1a,2529,7850,7852,A,V
+Delta (AY.4-like),nuc,8986,8986,8986,C,T
+Delta (AY.4-like),1a,2930,9053,9055,V,L
+Delta (AY.4-like),1a,3255,10028,10030,T,I
+Delta (AY.4-like),1a,3646,11201,11203,T,A
+Delta (AY.4-like),nuc,11332,11332,11332,A,G
+Delta (AY.4-like),1b,314,1206,1208,P,L
+Delta (AY.4-like),1b,662,2250,2252,G,S
+Delta (AY.4-like),1b,1000,3264,3266,P,L
+Delta (AY.4-like),1b,1918,6018,6020,A,V
+Delta (AY.4-like),nuc,27874,27874,27874,C,T
+Delta (AY.4-like),n,215,28916,28918,G,C
+Delta (AY.4-like),nuc,29742,29742,29742,G,T
 B.1.1.318-like,nuc,3961,3961,3961,C,T
 B.1.1.318-like,nsp3,1693,7796,7798,K,N
 B.1.1.318-like,nsp4,173,9071,9073,T,I
@@ -58,6 +80,53 @@ B.1.1.318-like,del,27887,27887,27887,,
 B.1.1.318-like,orf8,106,28209,28211,E,*
 B.1.1.318-like,nuc,28271,28271,28271,A,G
 B.1.1.318-like,del,28895,28895,28895,,
+Omicron (B.1.1.529-like),del,6513,6513,6513,,
+Omicron (B.1.1.529-like),del,11283,11283,11283,,
+Omicron (B.1.1.529-like),nuc,241,241,241,C,T
+Omicron (B.1.1.529-like),1a,856,2831,2833,K,R
+Omicron (B.1.1.529-like),nuc,3037,3037,3037,C,T
+Omicron (B.1.1.529-like),nuc,5386,5386,5386,T,G
+Omicron (B.1.1.529-like),1a,2710,8393,8395,A,T
+Omicron (B.1.1.529-like),1a,3255,10028,10030,T,I
+Omicron (B.1.1.529-like),1a,3395,10448,10450,P,H
+Omicron (B.1.1.529-like),1a,3758,11537,11539,I,V
+Omicron (B.1.1.529-like),nuc,13195,13195,13195,T,C
+Omicron (B.1.1.529-like),1b,314,1206,1208,P,L
+Omicron (B.1.1.529-like),nuc,15240,15240,15240,C,T
+Omicron (B.1.1.529-like),1b,1566,4962,4964,I,V
+Omicron (B.1.1.529-like),s,67,21761,21763,A,V
+Omicron (B.1.1.529-like),s,95,21845,21847,T,I
+Omicron (B.1.1.529-like),s,339,22577,22579,G,D
+Omicron (B.1.1.529-like),s,371,22673,22675,S,L
+Omicron (B.1.1.529-like),s,373,22679,22681,S,P
+Omicron (B.1.1.529-like),s,417,22811,22813,K,N
+Omicron (B.1.1.529-like),s,440,22880,22882,N,K
+Omicron (B.1.1.529-like),s,446,22898,22900,G,S
+Omicron (B.1.1.529-like),s,477,22991,22993,S,N
+Omicron (B.1.1.529-like),s,478,22994,22996,T,K
+Omicron (B.1.1.529-like),s,484,23012,23014,E,A
+Omicron (B.1.1.529-like),s,493,23039,23041,Q,R
+Omicron (B.1.1.529-like),s,496,23048,23050,G,S
+Omicron (B.1.1.529-like),s,498,23054,23056,Q,R
+Omicron (B.1.1.529-like),s,501,23063,23065,N,Y
+Omicron (B.1.1.529-like),s,547,23201,23203,T,K
+Omicron (B.1.1.529-like),s,614,23402,23404,D,G
+Omicron (B.1.1.529-like),s,655,23525,23527,H,Y
+Omicron (B.1.1.529-like),s,679,23597,23599,N,K
+Omicron (B.1.1.529-like),s,681,23603,23605,P,H
+Omicron (B.1.1.529-like),s,764,23852,23854,N,K
+Omicron (B.1.1.529-like),s,796,23948,23950,D,Y
+Omicron (B.1.1.529-like),s,856,24128,24130,N,K
+Omicron (B.1.1.529-like),s,954,24422,24424,Q,H
+Omicron (B.1.1.529-like),s,969,24467,24469,N,K
+Omicron (B.1.1.529-like),nuc,25000,25000,25000,C,T
+Omicron (B.1.1.529-like),e,9,26269,26271,T,I
+Omicron (B.1.1.529-like),m,3,26529,26531,D,G
+Omicron (B.1.1.529-like),m,19,26577,26579,Q,E
+Omicron (B.1.1.529-like),m,63,26709,26711,A,T
+Omicron (B.1.1.529-like),nuc,27259,27259,27259,A,C
+Omicron (B.1.1.529-like),nuc,27807,27807,27807,C,T
+Omicron (B.1.1.529-like),n,203,28880,28882,RG,KR
 Alpha (B.1.1.7-like),nuc,913,913,913,C,T
 Alpha (B.1.1.7-like),1ab,1001,3266,3268,T,I
 Alpha (B.1.1.7-like),1ab,1708,5387,5389,A,D

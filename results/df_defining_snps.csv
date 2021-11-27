@@ -39,6 +39,28 @@ AV.1-like,M:H125Y
 AV.1-like,N:I157V
 AV.1-like,N:R203K
 AV.1-like,N:G204R
+Delta (AY.4.2-like),nuc:T17040C
+Delta (AY.4.2-like),spike:A222V
+Delta (AY.4.2-like),spike:Y145H
+Delta (AY.4-like),del:28271:1
+Delta (AY.4-like),del:22029:6
+Delta (AY.4-like),del:28248:6
+Delta (AY.4-like),orf1a:A1306S
+Delta (AY.4-like),orf1a:P2046L
+Delta (AY.4-like),orf1a:P2287S
+Delta (AY.4-like),orf1a:A2529V
+Delta (AY.4-like),nuc:C8986T
+Delta (AY.4-like),orf1a:V2930L
+Delta (AY.4-like),orf1a:T3255I
+Delta (AY.4-like),orf1a:T3646A
+Delta (AY.4-like),nuc:A11332G
+Delta (AY.4-like),orf1b:P314L
+Delta (AY.4-like),orf1b:G662S
+Delta (AY.4-like),orf1b:P1000L
+Delta (AY.4-like),orf1b:A1918V
+Delta (AY.4-like),nuc:C27874T
+Delta (AY.4-like),n:G215C
+Delta (AY.4-like),nuc:G29742T
 B.1.1.318-like,nuc:C3961T
 B.1.1.318-like,nsp3:K1693N
 B.1.1.318-like,nsp4:T173I
@@ -58,6 +80,53 @@ B.1.1.318-like,del:27887:15
 B.1.1.318-like,ORF8:E106*
 B.1.1.318-like,nuc:A28271G
 B.1.1.318-like,del:28895:3
+Omicron (B.1.1.529-like),del:6513:3
+Omicron (B.1.1.529-like),del:11283:9
+Omicron (B.1.1.529-like),nuc:C241T
+Omicron (B.1.1.529-like),orf1a:K856R
+Omicron (B.1.1.529-like),nuc:C3037T
+Omicron (B.1.1.529-like),nuc:T5386G
+Omicron (B.1.1.529-like),orf1a:A2710T
+Omicron (B.1.1.529-like),orf1a:T3255I
+Omicron (B.1.1.529-like),orf1a:P3395H
+Omicron (B.1.1.529-like),orf1a:I3758V
+Omicron (B.1.1.529-like),nuc:T13195C
+Omicron (B.1.1.529-like),orf1b:P314L
+Omicron (B.1.1.529-like),nuc:C15240T
+Omicron (B.1.1.529-like),orf1b:I1566V
+Omicron (B.1.1.529-like),spike:A67V
+Omicron (B.1.1.529-like),spike:T95I
+Omicron (B.1.1.529-like),spike:G339D
+Omicron (B.1.1.529-like),spike:S371L
+Omicron (B.1.1.529-like),spike:S373P
+Omicron (B.1.1.529-like),spike:K417N
+Omicron (B.1.1.529-like),spike:N440K
+Omicron (B.1.1.529-like),spike:G446S
+Omicron (B.1.1.529-like),spike:S477N
+Omicron (B.1.1.529-like),spike:T478K
+Omicron (B.1.1.529-like),spike:E484A
+Omicron (B.1.1.529-like),spike:Q493R
+Omicron (B.1.1.529-like),spike:G496S
+Omicron (B.1.1.529-like),spike:Q498R
+Omicron (B.1.1.529-like),spike:N501Y
+Omicron (B.1.1.529-like),spike:T547K
+Omicron (B.1.1.529-like),spike:D614G
+Omicron (B.1.1.529-like),spike:H655Y
+Omicron (B.1.1.529-like),spike:N679K
+Omicron (B.1.1.529-like),spike:P681H
+Omicron (B.1.1.529-like),spike:N764K
+Omicron (B.1.1.529-like),spike:D796Y
+Omicron (B.1.1.529-like),spike:N856K
+Omicron (B.1.1.529-like),spike:Q954H
+Omicron (B.1.1.529-like),spike:N969K
+Omicron (B.1.1.529-like),nuc:C25000T
+Omicron (B.1.1.529-like),e:T9I
+Omicron (B.1.1.529-like),m:D3G
+Omicron (B.1.1.529-like),m:Q19E
+Omicron (B.1.1.529-like),m:A63T
+Omicron (B.1.1.529-like),nuc:A27259C
+Omicron (B.1.1.529-like),nuc:C27807T
+Omicron (B.1.1.529-like),n:RG203KR
 Alpha (B.1.1.7-like),nuc:C913T
 Alpha (B.1.1.7-like),1ab:T1001I
 Alpha (B.1.1.7-like),1ab:A1708D
